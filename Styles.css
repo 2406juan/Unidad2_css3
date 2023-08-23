@@ -1,0 +1,50 @@
+/*Resetear estilos por defectos del navegador */
+
+  body,h1,h2,p,ul,li{
+    margin: 15;
+    padding: 0;
+    
+}
+/*Estlos Generales */
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(196, 255, 254);
+color: #333;
+}
+
+header, nav,main,footer{
+    padding: 20px;
+    background-color:#fff ;
+    margin: 10px ;
+    border-radius:5ox ;
+    box-shadow:0px 2px 4px rgba(0, 0, 0, o.1) ;
+    }
+
+    /*Estlos Generales */
+    header {
+        color: #007bff;
+        }
+
+        /*Estlos Generales */
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        }
+        nav a{
+            text-decoration: none;
+            color: #333;
+            }
+    
+        
+        /*Estlos Generales */
+    footer {
+        text-align: center;
+        font-size: 14px;
+        color: #777 ;
+
+        }
+
+        
+        
+    
